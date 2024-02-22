@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+    <div class="page-heading text-center">
+      <div class="container zoomIn animated">
+        <h1 class="page-title">
+          Bazar Solidário<span class="title-under"></span>
+        </h1>
+      </div>
+    </div>
+
+    <div class="section-home home-reasons">
+      <div class="container">
+        <!-- <br><br> -->
+        <div class="row fadeIn animated">
+          <div class="col-md-6">
+            <img src="{% static 'images/bazar.jpg' %}" alt="" class="img-responsive" />
+          </div>
+
+          <div class="col-md-6">
+            <h2 class="title-style-2">
+              Bazar<span class="title-under"></span>
+            </h2>
+
+            <p>
+              Nosso Bazar Solidário acontece uma vez por mês, por dois dias
+              seguidos sempre das 8h às 16h. Seu objetivo é ajudar nosso entorno
+              com peça acessíveis e de excelente qualidade, além de ser uma
+              fonte de renda para os trabalhos assistenciais e manutenção de
+              nossa casa.
+            </p>
+
+            <p>
+              As doações recebidas passam por uma triagem, e são organizadas
+              para que possam atender o público que nos visita, nosso bazar
+              conta com roupas, sapatos, acessórios, móveis e utensílios
+              domésticos. Para doar, entre em contato conosco, toda doação é
+              muito bem vinda!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.home-reasons -->
+{% endblock content %}

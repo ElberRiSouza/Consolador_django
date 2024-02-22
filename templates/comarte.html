@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+    <div class="page-heading text-center">
+      <div class="container zoomIn animated">
+        <h1 class="page-title">
+          Encontro com Arte<span class="title-under"></span>
+        </h1>
+      </div>
+    </div>
+
+    <div class="section-home home-reasons">
+      <div class="container">
+        <!-- <br><br> -->
+        <div class="row fadeIn animated">
+          <div class="col-md-6">
+            <img
+              src="{% static 'images/consolarte2.jpg' %}"
+              alt=""
+              class="img-responsive"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <h2 class="title-style-2">
+              Encontro com arte <span class="title-under"></span>
+            </h2>
+
+            <p>
+              Um momento terapêutico com arte, música, história da arte e
+              fazeres artísticos com diversas técnicas plásticas e uso de
+              recicláveis. Nossos encontros são cheios de amor, criatividade,
+              conversas e acolhimento.
+            </p>
+
+            <p>Idade a partir dos 10 anos.</p>
+
+            <p>Todas às segundas-feiras das 9h às 11h</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.home-reasons -->
+{% endblock content %}

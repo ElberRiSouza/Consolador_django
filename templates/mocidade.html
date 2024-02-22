@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <div class="page-heading text-center">
+      <div class="container zoomIn animated">
+        <h1 class="page-title">
+          Encontro da Mocidade<span class="title-under"></span>
+        </h1>
+      </div>
+    </div>
+
+    <div class="section-home home-reasons">
+      <div class="container">
+        <!-- <br><br> -->
+        <div class="row fadeIn animated">
+          <div class="col-md-6">
+            <img
+              src="{% static 'images/mocidade.jpg' %}"
+              alt=""
+              class="img-responsive"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <h2 class="title-style-2">
+              Mocidade <span class="title-under"></span>
+            </h2>
+
+            <p>
+              Alegres na esperança, fortes na fé, dedicados no amor, unidos no
+              trabalho da caridade e do estudo, nossa Mocidade se reúne aos
+              domingos das 10h às 11h para manhãs de muito estudo e diversão.
+            </p>
+            <p>Venha fazer parte, estamos esperando por você!</p>
+
+            <p>
+              "A mocidade poderá fazer muito, mas que siga, em tudo, "a justiça,
+              a fé, o amor e a paz com os que, de coração puro, invocam o
+              Senhor". XAVIER, Francisco Cândido. Caminho, Verdade e Vida. Pelo
+              Espírito Emmanuel. 28.ed. Brasília: FEB, 2009. Capítulo 151
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.home-reasons -->
+{% endblock content %}

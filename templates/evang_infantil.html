@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <div class="page-heading text-center">
+      <div class="container zoomIn animated">
+        <h1 class="page-title">
+          Encontro com Arte<span class="title-under"></span>
+        </h1>
+      </div>
+    </div>
+
+    <div class="section-home home-reasons">
+      <div class="container">
+        <!-- <br><br> -->
+        <div class="row fadeIn animated">
+          <div class="col-md-6">
+            <img
+              src="{% static 'images/evang_infantil.jpg' %}"
+              alt=""
+              class="img-responsive"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <h2 class="title-style-2">
+              Evangelização Infantil<span class="title-under"></span>
+            </h2>
+
+            <p>
+              Há 30 anos, nossa casa vem desenvolvendo esse lindo trabalho de
+              Evangelização Infantil, sempre buscando estimular em nossas
+              crianças os valores cristãos de acordo com a Doutrina Espirita e
+              ensinamentos de nosso mestre Jesus.
+            </p>
+            <p>
+              Todos nós espiritas-cristãos fomos convocados à trabalhar como
+              servidores da seara do Cristo, e nesse trabalho nosso objetivo é
+              contribuir na condução de cada criança ao caminho de Jesus,
+              ensinando a eles a importância do amor, caridade, fé e respeito ao
+              próximo e ao nosso planeta.
+            </p>
+            <p>
+              Educar é ir além, é projetar valores e boas expectativas para o
+              futuro, por isso acreditamos que o trabalho de evangelização
+              infantil tem papel fundamental na construção de um planeta melhor.
+            </p>
+
+            <p>Venha você também fazer parte dessa construção.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.home-reasons -->
+{% endblock content %}
